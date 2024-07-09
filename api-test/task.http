@@ -1,0 +1,23 @@
+###
+GET http://localhost:3002/tasks
+
+###
+POST http://localhost:3002/tasks
+Content-Type: application/json
+
+{
+    "title": "Estudar Node.Js"
+}
+
+
+
+###
+PUT  http://localhost:3002/tasks/f329c8a8-0f92-4df2-a156-1b2956174f4c
+Content-Type: application/json
+
+{
+    "completed": true
+}
+
+###
+DELETE   http://localhost:3002/tasks/01c4d58d-50d1-4d8a-8e55-e6b81f56cf41
